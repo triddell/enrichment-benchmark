@@ -15,3 +15,7 @@ test-data.bento-lookup.ndjson.gz
 # Temporary files
 /tmp/*
 *.tmp
+
+# Go binaries
+go-enrichment
+generate_test_data
