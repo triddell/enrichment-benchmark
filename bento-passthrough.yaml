@@ -1,0 +1,18 @@
+input:
+  file:
+    paths: ["${BENTO_FILE_PATH}"]
+    scanner:
+      decompress:
+        algorithm: "gzip"
+        into:
+          lines: {}
+
+pipeline:
+  processors:
+    - mapping: |
+        root = this
+
+output:
+  file:
+    path: "${BENTO_OUTPUT_PATH}"
+    codec: lines

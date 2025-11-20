@@ -1,0 +1,17 @@
+# Generated test data
+test-data.ndjson.gz
+test-small.ndjson.gz
+
+# Output files
+*.bento-output.ndjson
+*.bento-output.ndjson.gz
+*.jq-output.ndjson.gz
+*.go-output.ndjson.gz
+test-data.bento-passthrough.ndjson
+test-data.bento-passthrough.ndjson.gz
+test-data.bento-lookup.ndjson
+test-data.bento-lookup.ndjson.gz
+
+# Temporary files
+/tmp/*
+*.tmp

@@ -1,0 +1,72 @@
+{
+    "additionalEventData": {
+        "ExtendedRequestId": "REDACTED",
+        "RequestDetails": {
+            "awsServingRegion": "us-west-2",
+            "endpointType": "regional"
+        }
+    },
+    "awsRegion": "us-west-2",
+    "eventCategory": "Management",
+    "eventID": "REDACTED",
+    "eventName": "AssumeRole",
+    "eventSource": "sts.amazonaws.com",
+    "eventTime": "2025-09-25T16:50:47Z",
+    "eventType": "AwsApiCall",
+    "eventVersion": "1.08",
+    "managementEvent": true,
+    "readOnly": true,
+    "recipientAccountId": "000412385490",
+    "requestID": "REDACTED",
+    "requestParameters": {
+        "roleArn": "arn:aws:iam::REDACTED:role/REDACTED",
+        "roleSessionName": "REDACTED"
+    },
+    "resources": [
+        {
+            "ARN": "arn:aws:iam::REDACTED:role/REDACTED",
+            "accountId": "REDACTED",
+            "type": "AWS::IAM::Role"
+        }
+    ],
+    "responseElements": {
+        "assumedRoleUser": {
+            "arn": "arn:aws:sts::REDACTED:assumed-role/REDACTED/REDACTED",
+            "assumedRoleId": "REDACTED:REDACTED"
+        },
+        "credentials": {
+            "accessKeyId": "REDACTED",
+            "expiration": "Sep 25, 2025, 5:50:46 PM",
+            "sessionToken": "REDACTED"
+        }
+    },
+    "sharedEventID": "REDACTED",
+    "sourceIPAddress": "REDACTED",
+    "tlsDetails": {
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "sts.us-west-2.amazonaws.com",
+        "tlsVersion": "TLSv1.3"
+    },
+    "userAgent": "REDACTED",
+    "userIdentity": {
+        "accessKeyId": "REDACTED",
+        "accountId": "REDACTED",
+        "arn": "arn:aws:sts::REDACTED:assumed-role/REDACTED/REDACTED",
+        "principalId": "REDACTED:REDACTED",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2025-09-25T14:34:46Z",
+                "mfaAuthenticated": "false"
+            },
+            "sessionIssuer": {
+                "accountId": "REDACTED",
+                "arn": "arn:aws:iam::REDACTED:role/REDACTED",
+                "principalId": "REDACTED",
+                "type": "Role",
+                "userName": "REDACTED"
+            },
+            "webIdFederationData": {}
+        },
+        "type": "AssumedRole"
+    }
+}
